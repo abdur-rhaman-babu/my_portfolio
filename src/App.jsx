@@ -1,7 +1,9 @@
+import Mainlayout from "./Layout/Mainlayout/Mainlayout"
+
 const App = () => {
   return (
     <>
-      <h1>wel come to out app</h1>
+      <Mainlayout/>
     </>
   )
 }

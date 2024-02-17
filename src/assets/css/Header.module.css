@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --green:#079992;
+    --blue:#2980b9;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5s 1rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black)
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s linear;
+}
+
+html{
+    font-size:62.5%;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+    scroll-padding-top:7rem;
+}
+
+body{
+    background-color:#eee;
+}
+
+/* <<-----------------header---------------->> */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:2rem 9%;
+    background-color:#fff;
+    box-shadow: var(--box-shadow);
+    position: fixed;
+    top:0;
+    left:0; right:0;
+}
+
+.icons{
+    display:none;
+}
+
+.header .logo{
+    font-size:2.5rem;
+    font-weight:700;
+    color:var(--black);
+}
+
+.header .logo span{
+    color:var(--blue);
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    gap:1.5rem;
+}
+
+.navbar a{
+    color:var(--black);
+    font-size:1.7rem;
+    font-weight:500;
+    display:block;
+    position:relative;
+}
+
+.navbar a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height:2px;
+    background-color: var(--blue);
+    transition: width 0.3s ease;
+    
+}
+
+.navbar a:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+
+/* <<-----------------------media query-------------------->> */
+@media (max-width: 992px) {
+    html{
+        font-size:55%;
+    }
+
+    .navbar a{
+        margin-top:1.5rem;
+    }
+
+    .header{
+        padding:2rem;
+    }
+
+  }
+
+
+@media (max-width: 768px) {
+    .navbar{
+        display:none;
+    }
+
+    .resnav{
+        display:block;
+        right:0;
+        position:absolute;
+        top:101%;
+        background-color:#fff;
+        padding:2.5rem;
+        width:50%;
+        min-height:100vh;
+        border-radius:.5rem;
+        box-shadow:var(--box-shadow);
+        transition: .5s linear;
+    }
+    .icons{
+        display: block;
+        font-size:2.5rem;
+    }
+    .navbar a:hover::after{
+        width: 30%;
+    }
+  }
+
+  @media (max-width:450px){
+    html{
+        font-size:50%;
+    }
+}
