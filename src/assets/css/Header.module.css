@@ -39,10 +39,13 @@ body{
     align-items:center;
     padding:2rem 9%;
     background-color:#fff;
+    /* background: transparent; */
     box-shadow: var(--box-shadow);
     position: fixed;
     top:0;
-    left:0; right:0;
+    left:0; 
+    right:0;
+    z-index:10000;
 }
 
 .icons{

@@ -7,15 +7,15 @@ const Home = () => {
             <div className={styles.homeText}>
                 <h3>Hello, It's Me</h3>
                 <h1>Abdur Rhaman Babu</h1>
-                <h3>And I'm a <span>Frontend Web Developer</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vitae pariatur fugiat ipsum nam delectus facilis autem cumque debitis est?</p>
+                <h3>And I'm a <span>Frontend Developer</span></h3>
+                <p>I am a Frontend Developer. I am able to create responsive, user friendly, dynamic and effective User Interface.</p>
                 <div className={styles.homeIcons}>
                     <a href="#"><LiaLinkedin /></a>
                     <a href="#"><LiaGithubSquare /></a>
                     <a href="#"><LiaFacebookSquare /></a>
                     <a href="#"><LiaWhatsappSquare /></a>
                 </div>
-                <button className={styles.btn}>Hire me</button>
+                <a href ="#" className={styles.btn}>Hire me</a>
             </div>
             <div className={styles.homeImage}>
                 <img src="../../../src/assets/Image/abdurrahman.jpg" alt="" />

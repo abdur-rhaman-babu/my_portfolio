@@ -49,29 +49,41 @@
    font-size:1.5rem;
    width:55rem;
    margin:1rem 0;
+   text-transform:capitalize;
 }
 
 .homeIcons{
     font-size:3rem;
+    margin-bottom:1.5rem;
 }
 
 .homeIcons a{
     color:var(--black);
-    margin: 0 .5rem;
+    margin-right:1rem;
+    padding:.1rem;
+    display:inline-flex;
+    background:#fff;
+    border:.3rem solid var(--blue);
+    border-radius:50%;
 }
 
+.homeIcons a:hover{
+  padding:.3rem;
+ 
+}
 
 .btn {
     color: #fff !important;
     font-size: 1.7rem;
-    padding: 1rem 5rem;
-    border-radius: 10px;
+    font-weight:600;
+    padding: .8rem 5rem;
+    border-radius: .5rem;
     background:var(--blue);
-    background: linear-gradient(to top, #63B8EE, #468CCF);
+    border:none;
+    background: linear-gradient(to top, #63B8EE, #468CCF)
   }
   .btn:hover {
     color: var(--black) !important;
-    background: var(--blue);
     background: linear-gradient(to top, #468CCF, #63B8EE);
   }
   
@@ -101,6 +113,16 @@
     .homeText p{
         width:100%;
   }
+  .homeText h3{
+    font-size:2.3rem;
+  }
+
+  .homeText h1{
+    font-size:3rem;
+  }
+  .homeText{
+    z-index:-9999;
+  }
 }
 
 
@@ -109,3 +131,4 @@
   }
 
 
+  
