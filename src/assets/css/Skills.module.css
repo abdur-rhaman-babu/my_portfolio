@@ -1,8 +1,7 @@
 .skillPage{
     display:flex;
     align-items:center;
-    justify-content:center;
-    text-align:center;
+    justify-content:space-between;
 }
 
 .skillContent h1{
@@ -12,7 +11,6 @@
 }
 
 .skillContainer{
-  background-color:#fff;
   padding:1rem;
   border-radius:.5rem;
   box-shadow:var(--box-shadow);
@@ -21,15 +19,15 @@
 .skills{
     width:50rem;
     height:2.5rem;
-    background:#2f3542;
-    border-radius:1rem;
+    background-color:#fff;
+    border-radius:.5rem;
     margin:5rem 5rem;
 }
 
 .innerSkill{
     height:2.5rem;
-    border-top-left-radius:1rem;
-    border-bottom-left-radius:1rem;
+    border-top-left-radius:.5rem;
+    border-bottom-left-radius:.5rem;
     display:flex;
     align-items:center;
     padding:0 1rem;
@@ -68,6 +66,37 @@
     display:inline-block;
     padding:.5rem 3rem;
     clip-path:polygon(100% 0%, 93% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+ }
+
+ .skillTextContent{
+    display: flex;
+    align-items:center;
+    gap:1rem;
+    width:50rem;
+ }
+
+ .skillTextContent a{
+    font-size:3rem;
+    background:#fff;
+    margin:1rem 0;
+    padding:1rem;
+    display:inline-flex;
+    border-radius:.5rem;
+    color:var(--black);
+ }
+
+ .skillTextContent h3{
+    font-size:2rem;
+    color:var(--black);
+ }
+
+ .skillTextContent p{
+    font-size:1.5rem;
+    color:var(--light-color);
+ }
+
+ .skillText{
+    margin:1rem 0;
  }
 
 /* <<-----Media query----->> */
