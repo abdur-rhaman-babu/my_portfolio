@@ -18,7 +18,7 @@ const Home = () => {
                 <a href ="#" className={styles.btn}>Hire me</a>
             </div>
             <div className={styles.homeImage}>
-                <img src="../../../src/assets/Image/abdurrahman.jpg" alt="" />
+                <img src="https://i.postimg.cc/0jJLwPCz/babu.png" alt="" />
             </div>
         </div>
     );

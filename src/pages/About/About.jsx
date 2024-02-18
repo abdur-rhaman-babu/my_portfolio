@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div className={styles.aboutPage}>
             <div className={styles.aboutPageImage}>
-            <img src="../../../src/assets/Image/abdurrahman.jpg" alt="" />
+            <img src="https://i.postimg.cc/0jJLwPCz/babu.png" alt="" />
             </div>
             <div className={styles.aboutPageText}>
             <h1>About <span>Me</span></h1>
