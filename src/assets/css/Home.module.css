@@ -12,9 +12,6 @@
     font-size:2.5rem;
 }
 
-/* .homeText h3 span{
-    color:var(--blue);
-} */
 
 .homeText h3 span {
     color: #3079ed; 
@@ -89,7 +86,6 @@
   
 
   .homeImage{
-    border:.5rem solid var(--blue);
     background:linear-gradient(120deg,blue,red);
     border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
   }
@@ -99,6 +95,8 @@
     height: 45rem;
     border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;
   }
+
+  
 
   /* responsive */
 
