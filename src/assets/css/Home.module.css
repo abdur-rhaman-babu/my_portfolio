@@ -22,9 +22,6 @@
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-fill-mode: none;
-        
-    /* shorthand
-    animation: focus-in-expand-top 1s linear 0s 1 normal none;*/
 }
 @keyframes focus-in-expand-top {
         
@@ -69,21 +66,19 @@
  
 }
 
-.btn {
-    color: #fff !important;
-    font-size: 1.7rem;
-    font-weight:600;
-    padding: .8rem 5rem;
-    border-radius: .5rem;
-    background:var(--blue);
-    border:none;
-    background: linear-gradient(to top, #63B8EE, #e0042c)
-  }
-  .btn:hover {
-    color: var(--black) !important;
-    background: linear-gradient(to top, #e0042c, #63B8EE);
+  
+  .btn{
+    font-size:1.8rem;
+    background: var(--blue);
+    color:#fff;
+    border-radius:.5rem;
+    padding:.5rem 5rem;
+    text-align:center;
   }
   
+ .btn:hover{
+      background:rgb(4, 4, 200);
+  }
 
   .homeImage{
     background:linear-gradient(120deg,blue,red);

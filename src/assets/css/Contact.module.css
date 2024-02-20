@@ -37,7 +37,21 @@ form h1{
     font-size:3rem;
 }
 
-.formbtn{
+form a{
+    font-size:1.8rem;
+    background: var(--blue);
+    color:#fff;
+    border-radius:.5rem;
+    padding:.5rem 2.5rem;
+    display:block;
+    text-align:center;
+  }
+  
+  form a:hover{
+      background:rgb(4, 4, 200);
+  }
+
+/* .formbtn{
     color: #fff !important;
     font-size: 1.7rem;
     display:block;
@@ -52,7 +66,7 @@ form h1{
   .formbtn:hover {
     color: var(--black) !important;
     background: linear-gradient(to top, #e0042c, #63B8EE);
-  }
+  } */
 
   .heading{
     text-align:center;

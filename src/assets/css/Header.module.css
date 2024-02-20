@@ -39,7 +39,6 @@ body{
     align-items:center;
     padding:2rem 9%;
     background-color:#fff;
-    /* background: transparent; */
     box-shadow: var(--box-shadow);
     position: fixed;
     top:0;

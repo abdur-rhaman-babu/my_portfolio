@@ -49,6 +49,7 @@
     color:#fff;
     padding:.5rem 2rem;
     border-radius:.5rem;
+    display:block;
 }
 
 @media (max-width: 992px) {

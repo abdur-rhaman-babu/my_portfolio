@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "../../assets/css/Header.module.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
@@ -10,7 +10,7 @@ const Header = () => {
     }
     return (
          <div className={styles.header}>
-            <a className={styles.logo} href="#">AR <span>Babu</span></a>
+            <a className={styles.logo} href="#"><Link to='/'>AR <span>Babu</span></Link></a>
 
             <nav className={`${styles.navbar} ${showicon ? styles.resnav : ''}`}>
                 <NavLink to='/'>Home</NavLink>
